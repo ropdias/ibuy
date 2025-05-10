@@ -7,7 +7,7 @@ export default function Index() {
   }
 
   function signIn() {
-    router.navigate('/configs')
+    router.navigate('/(drawer)/(tabs)')
   }
 
   return (
