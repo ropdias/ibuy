@@ -1,7 +1,7 @@
 import { Link } from 'expo-router'
 import { StyleSheet, View } from 'react-native'
 
-export default function Index() {
+export default function SignUp() {
   return (
     <View style={styles.container}>
       <Link href="/" style={styles.back}>
