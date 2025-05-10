@@ -12,10 +12,8 @@ export default function Index() {
         <Text style={styles.label}>Criar conta</Text>
       </TouchableOpacity>
 
-      <Link
-        href={{ pathname: '/sign-up', params: { name: 'Rodrigo Dias', id: 7 } }}
-      >
-        Enviar parâmetro
+      <Link href={{ pathname: '/product/[id]', params: { id: '12' } }}>
+        Abrir produto
       </Link>
     </View>
   )
